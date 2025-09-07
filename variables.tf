@@ -1,4 +1,4 @@
- # Variables for the resource group
+# Variables for the resource group
 variable "resource_group_name" {
   description = "The name of the resource group."
   type        = string
@@ -22,4 +22,10 @@ variable "sku_name" {
 variable "app_service_plan_name" {
   description = "The name of the App Service Plan."
   type        = string
+}
+
+variable "subscription_id" {
+  description = "The subscription ID for the Azure provider."
+  type        = string
+
 }
